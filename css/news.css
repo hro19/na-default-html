@@ -1,0 +1,107 @@
+/*************************************
+ 	ニュース一覧ページ
+*************************************/
+
+/*------------------------------------------
+	コンテンツフィールド内
+------------------------------------------*/
+.card{
+	margin-bottom: 60px;
+}
+
+.card .data{
+	text-align: right;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card a {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 640px) {
+
+
+}
+
+/*------------------------------------------
+	トップにボタン
+------------------------------------------*/
+.newsnotice_contents aside.to_top {
+    display: table;
+    margin: 30px auto 20px;
+}
+
+.newsnotice_contents aside.to_top a {
+    padding: 10px 30px;
+    background: #999;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+	transition: 0.4s;
+}
+
+.newsnotice_contents aside.to_top a:hover {
+	opacity: 0.7;
+}
+
+/*------------------------------------------
+	ページング設定
+------------------------------------------*/
+
+#paging{
+	margin-bottom: 10px;
+}
+
+.wp-pagenavi{
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-pagenavi span{
+	display:inline;
+	margin-right:5px;
+	font-size:1.2em;
+}
+.wp-pagenavi span.pages{
+	display:inline;
+	margin-right:5px;
+	font-size:1.2em;
+	border:1px solid #3272a8;
+	background:#3272a8;
+	padding:7px 9px;
+	color:#FFF;
+}
+
+.wp-pagenavi a{
+	display:inline;
+	margin-right:5px;
+	font-size:1.2em;
+	border:1px solid #333;
+	background:#FFF;
+	padding:7px 9px;
+}
+
+.wp-pagenavi span.current{
+	display:inline;
+	margin-right:5px;
+	font-size:1.2em;
+	border:1px solid #3272a8;
+	background:#3272a8;
+	padding:7px 9px;
+	color:#FFF;
+}
+
+.wp-pagenavi a:hover{
+	display:inline;
+	margin-right:5px;
+	font-size:1.2em;
+	border:1px solid #3272a8;
+	background:#3272a8;
+	padding:7px 9px;
+	color:#FFF;
+}
