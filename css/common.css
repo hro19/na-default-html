@@ -60,6 +60,8 @@ body {
 }
 
 /*--------------色指定--------------*/
+.color_gray{}
+
 
 /*--------------メインコンテナ--------------*/
 @media screen and (max-width: 640px) {
@@ -117,7 +119,7 @@ body {
 }
 
 @media all and (-ms-high-contrast:none)
- {
+ {/* IE11 */
  *::-ms-backdrop,
 	.tit03{
 		font-family: "ＭＳ Ｐゴシック","MS PGothic",sans-serif;
@@ -479,12 +481,12 @@ article.main{
 /*------------------------------------------
 	アーカイブページコンテンツエリア（ニュースとお知らせ）
 ------------------------------------------*/
-.newsnotice_contents{
+.smallinner_contents{
 	padding:0 200px;
 }
 
 @media screen and (max-width: 640px) {
-	.newsnotice_contents{
+	.smallinner_contents{
 		padding:0;
 	}	
 }
