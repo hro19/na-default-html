@@ -58,6 +58,7 @@ ul{
 .clearfix::after,.clear::before {content: ""; display: block; overflow: hidden; height: 0;}
 .clearfix::after {clear: both;}
 
+
 /*--------------positon--------------*/
 .po_relative{
 	position: relative;
@@ -70,6 +71,7 @@ ul{
     -ms-filter: alpha(opacity=70) !important;/* ie 8 */
     -moz-opacity: .7 !important;/* FF lt 1.5, Netscape */
     -khtml-opacity: .7 !important;/* Safari 1.x */
+    /*zoom: 1 !important;*/
     transition: .4s;
 }
 
