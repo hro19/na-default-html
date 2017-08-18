@@ -57,8 +57,6 @@ ul{
 /*--------------clear--------------*/
 .clearfix::after,.clear::before {content: ""; display: block; overflow: hidden; height: 0;}
 .clearfix::after {clear: both;}
-.clearfix {zoom: 1;}
-
 
 /*--------------positon--------------*/
 .po_relative{
