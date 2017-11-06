@@ -371,29 +371,3 @@ article.main{
 }
 
 
-/*------------------------------------------
-	内部ページコンテンツエリア
-------------------------------------------*/
-.inner_contents{
-	padding:0 100px;
-}
-
-@media screen and (max-width: 640px) {
-	.inner_contents{
-		padding:0;
-	}	
-}
-
-/*------------------------------------------
-	アーカイブページコンテンツエリア（ニュースとお知らせ）
-------------------------------------------*/
-.smallinner_contents{
-	padding:0 200px;
-}
-
-@media screen and (max-width: 640px) {
-	.smallinner_contents{
-		padding:0;
-	}
-}
-
