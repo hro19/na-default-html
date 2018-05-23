@@ -94,8 +94,6 @@ ul{
   .sp{display: none;}
 }
 
-
-
 /*--------------スマホメニュー開時にbody要素を固定する--------------*/
 .fixed {
   position: static;
