@@ -84,19 +84,16 @@ ul{
 }
 
 /*--------------switch--------------*/
-.sp {display: none;}
-.pc {display: block;}
-@media screen and (max-width: 640px) {
-    .sp {display: block;}
-    .pc {display: none;}
+@media screen and (min-width: 641px) {
+  .pc_br:before { content: "\A" ; white-space: pre ;}
+  .pc {display: none; }
 }
 
-.br_pc{display:block;}
-.br_sp{display:none;}
-@media screen and (max-width: 640px) {
-    .br_pc{display:none;}
-    .br_sp{display:block;}
+ @media screen and (max-width: 640px) {
+  .sp_br:before { content: "\A" ; white-space: pre ;}
+  .sp{display: none;}
 }
+
 
 
 /*--------------スマホメニュー開時にbody要素を固定する--------------*/
